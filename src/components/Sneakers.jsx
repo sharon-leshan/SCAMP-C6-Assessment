@@ -5,12 +5,12 @@ import './sneakers.css';
 import { shoes } from '../data/shoes';
 
 const Sneakers = () => {
-	const [selectedShoe, setSelectedShoe] = useState(shoes[0]);
+	const [selectedShoe] = useState(shoes[0]);
 	const { title, subtitle, desc, price, discount, prevprice, id, image } =
 		selectedShoe;
-	const handleSelectedShoe = () => {
-		setSelectedShoe(shoes[id]);
-	};
+	// const handleSelectedShoe = () => {
+	// 	setSelectedShoe(shoes[id]);
+	// };
 	return (
 		<div className="sneakers">
 			<aside className="left">

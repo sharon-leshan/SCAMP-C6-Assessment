@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './carousal.css';
 import CarousalItem from './CarousalItem';
 import { shoes } from '../data/shoes';
