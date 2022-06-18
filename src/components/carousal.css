@@ -1,0 +1,25 @@
+.carousal{
+    height: 100%;
+    width: 80%;
+}
+img{
+    object-fit: cover;
+    object-position: center;
+}
+#view{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+#preview{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.preview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
