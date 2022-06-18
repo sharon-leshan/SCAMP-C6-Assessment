@@ -1,0 +1,13 @@
+.comingsoon {
+	height: calc(100% - 100px);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--deep-orange);
+	color: var(--white);
+	text-transform: uppercase;
+	font-size: 2em;
+}

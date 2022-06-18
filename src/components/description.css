@@ -1,0 +1,88 @@
+.title {
+	text-transform: uppercase;
+	color: var(--light-orange);
+	font-size: 1em;
+}
+.sub-title {
+	text-transform: capitalize;
+	margin: 0.3em 0;
+	font-size: 2.2em;
+}
+.desc {
+	margin: 0.3em 0;
+	font-size: 1.2em;
+	color: gray;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+.price p:first-child {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.price p:last-child {
+	font-size: 1.2em;
+	color: var(--deep-orange);
+	background-color: var(--pale-orange);
+	padding: 0.2em;
+	border-radius: 5px;
+}
+
+strike {
+	color: gray;
+	margin: 0.3em 0;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 1.5em;
+}
+.counter {
+	background-color: rgba(241, 239, 225, 0.966);
+	border-radius: 5px;
+	width: 100px;
+	height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.counter button {
+	outline: none;
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: var(--deep-orange);
+	cursor: pointer;
+}
+.add-to-cart {
+	background-color: var(--deep-orange);
+	color: snow;
+	width: calc(100% - 110px);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+.add-to-cart > .MuiIconButton-root {
+	color: snow;
+}
+@media screen and (max-width: 768px) {
+	.buttons {
+		flex-direction: column;
+	}
+	.button > * {
+		width: 100%;
+	}
+	.add-to-cart {
+		margin: 0.2rem;
+		width: 100%;
+	}
+}

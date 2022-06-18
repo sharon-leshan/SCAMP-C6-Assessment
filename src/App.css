@@ -12,4 +12,28 @@ li > a {
 }
 a.active {
 	color: black;
+	text-transform: lowercase;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	padding: 0 4rem;
+}
+.container > header {
+	height: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid rgba(187, 180, 180, 0.1);
+}
+@media screen and (max-width: 768px) {
+	header .nav {
+		display: none;
+	}
+	.container {
+		padding: 0.2rem;
+		margin: 0 !important;
+	}
 }

@@ -1,7 +1,8 @@
 import React from 'react';
+import './comingsoon.css';
 
 const Comingsoon = () => {
-	return <div>Coming soon!</div>;
+	return <div className="comingsoon">Coming soon!</div>;
 };
 
 export default Comingsoon;
